@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
       knex.schema.createTable('milestones', (table) => {
         table.string('description');
         table.date('date_achieved');
-        table.string('id')
+        table.string('id ')
       })
     ])
 };
